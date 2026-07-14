@@ -1,0 +1,67 @@
+<%@ Page Language="C#" %>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Profile</h1>
+
+    <img src="image/im2.png" alt="Profile Picture">
+
+    <table>
+        <tr>
+            <td>ชื่อ - นามสกุล</td>
+            <td>นาย ไกรวิชญ์ กาญจนาหาร</td>
+        </tr>
+
+        <tr>
+            <td>รหัสนักศึกษา</td>
+            <td>6850301002</td>
+        </tr>
+
+        <tr>
+            <td>สาขา</td>
+            <td>วิศวกรรมคอมพิวเตอร์</td>
+        </tr>
+
+        <tr>
+            <td>คณะ</td>
+            <td>เทคโนโลยีดิจิทัล</td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>kaivish0000@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>เบอร์โทรศัพท์</td>
+            <td>061-493-5154</td>
+        </tr>
+
+        <tr>
+            <td>วันและเวลาปัจจุบัน</td>
+            <td><%= DateTime.Now %></td>
+        </tr>
+
+    </table>
+
+    <p class="p1">“นอนน้อยแต่กินข้าวอร่อย ดื่มน้ำกันเยอะๆนะครับ”</p>
+
+    <footer>
+        © 2026 My Profile
+    </footer>
+
+</div>
+
+</body>
+</html>
