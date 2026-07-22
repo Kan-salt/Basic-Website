@@ -1,3 +1,4 @@
+<%@ Page Language="C#" %>
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -15,9 +16,9 @@
     <button class="page_box">
     <a href="index.html">HOME</a></button>
     <button class="page_box" >
-    <a href="Portfolio.html">PORTFOLIO</a></button>
+    <a href="Portfolio.aspx">PORTFOLIO</a></button>
     <button class="page_box" style="background-color: darkblue;">
-    <a href="Profile.html">CV</a></button>
+    <a href="Profile.aspx">CV</a></button>
     <button class="page_box" >
     <a href="HW1.html">HOMEWORK 1</a></button>
     <button class="page_box" >
@@ -25,11 +26,12 @@
     <button class="page_box" >
     <a href="HW3.html">HOMEWORK 3</a></button>
     <button class="page_box" >
-    <a href="About.html">ABOUT</a></button>
+    <a href="About.aspx">ABOUT</a></button>
     <button class="page_box" >
-    <a href="Contact.html">CONTACT</a></button>
+    <a href="Contact.aspx">GUEST BOOK</a></button>
     <br>
     <br>
+    <p id="liveClock" style="font-weight: bold;text-align: right;font-size: 24px;"></p>
     <img src="image/im2.png" alt="Profile Picture">
     <table>
         <tr>
@@ -75,6 +77,7 @@
     <p class="p1">“นอนน้อยแต่กินข้าวอร่อย ดื่มน้ำกันเยอะๆนะครับ”</p>
 
 </div>
+<script src="JS_scipt/time.js"></script>
 <footer>
         © 2026 Personal Website
     </footer>
